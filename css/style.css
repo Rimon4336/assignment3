@@ -1,0 +1,512 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+/*header section start*/
+.header-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../img/hbe.png") center top no-repeat ;
+	background-size: cover;
+}
+.menu{
+	width: 100%;
+}
+.fixed-top{
+	background: #122341;
+}
+.menu .navbar-nav .nav-item .nav-link{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 20px;
+} 
+
+ .nav-item .nav-link:hover, .menu .navbar-nav .nav-item .nav-link:focus{
+	background: url("../img/div.png") center bottom no-repeat ;
+	background-size: auto;
+}
+
+.menu .navbar-nav .nav-link.active{
+	color: #008ed6;
+	background: url("../img/div.png") center bottom no-repeat ;
+	background-size: auto;
+}
+
+.header-section .banner{
+	width: 100%;
+	padding: 105px 0px;
+}
+.header-section .banner .banner-inner{
+	width: 40%;
+	padding: 30px 0px;
+	margin: 35px 0px 0px;
+}
+.header-section .banner .banner-inner h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 100px;
+	line-height: 110px;
+	font-weight: 500;
+	color: #000b2c;
+	letter-spacing: 1px;
+	margin: 0px 0px 20px;
+}
+.header-section .banner .banner-inner h4{
+	color: #ff4a00;
+	font-weight: 400;
+	margin: 0px 0px 20px;
+}
+.header-section .banner .banner-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	padding: 0px 80px 20px 0px;
+}
+.header-section .banner .banner-inner .inner-btn .btn-primary{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 5px 25px;
+    letter-spacing: 1px;
+    background: #ff4a00;
+    border: 0px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.header-section .banner .banner-inner .inner-btn .btn-primary:hover{
+	color: #ff4a00;
+	background: transparent;
+	border: 1px solid #ff4a00;
+}
+.header-section .banner .banner-inner .inner-btn .btn-primary:focus{
+	color: #ff4a00;
+	background: transparent;
+	border: 1px solid #ff4a00;
+}
+
+/*header section end*/
+
+/*group-1 section start*/
+.group-1{
+	width: 100%;
+	padding: 200px 0px;
+	background: url("../img/Gbe1.png") center bottom no-repeat;
+	background-size: cover;
+}
+.group-1 .inner-group{
+	width: 100%;
+	text-align: left;
+}
+.group-1 .inner-group h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 100px;
+	line-height: 110px;
+	font-weight: 500;
+	color: #000b2c;
+	letter-spacing: 1px;
+	margin: 0px 0px 60px;
+}
+.group-1 .inner-group .btn-primary{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 5px 25px;
+    letter-spacing: 1px;
+    background: #ff4a00;
+    border: 0px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.group-1 .inner-group .btn-primary:hover, .group-1 .inner-group .btn-primary:focus{
+	color: #ff4a00;
+	background: transparent;
+	border: 1px solid #ff4a00;
+}
+
+
+.group-1 .inner-text{
+	width: 100%;
+	padding: 30px 0px 0px 140px;
+	margin: 20px 0px 0px;
+	text-align: right;
+}
+.group-1 .inner-text p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	padding: 0px 0px 20px 80px;
+}
+/*group-1 section end*/
+
+/*group-2 section start*/
+
+.group-2{
+	width: 100%;
+	padding: 200px 0px;
+	background: url("../img/Gbe2.png") center bottom no-repeat;
+	background-size: cover;
+}
+
+.group-2 .inner-text{
+	width: 100%;
+	padding: 30px 140px 0px 0px;
+	margin: 20px 0px 0px;
+	text-align: left;
+}
+.group-2 .inner-text p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	padding: 0px 80px 20px 0px;
+}
+
+
+
+.group-2 .inner-group{
+	width: 100%;
+	text-align: right;
+}
+.group-2 .inner-group h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 100px;
+	line-height: 110px;
+	font-weight: 500;
+	color: #000b2c;
+	letter-spacing: 1px;
+	margin: 0px 0px 60px;
+}
+.group-2 .inner-group .btn-primary{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 5px 25px;
+    letter-spacing: 1px;
+    background: #ff4a00;
+    border: 0px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.group-2 .inner-group .btn-primary:hover, .group-2 .inner-group .btn-primary:focus{
+	color: #ff4a00;
+	background: transparent;
+	border: 1px solid #ff4a00;
+}
+
+
+/*group-2 section end*/
+
+/*group-3 section start*/
+.group-3{
+	width: 100%;
+	padding: 200px 0px;
+	background: url("../img/Gbe3.png") center bottom no-repeat;
+	background-size: cover;
+}
+.group-3 .inner-group{
+	width: 100%;
+	text-align: left;
+}
+.group-3 .inner-group h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 100px;
+	line-height: 110px;
+	font-weight: 500;
+	color: #000b2c;
+	letter-spacing: 1px;
+	margin: 0px 0px 60px;
+}
+.group-3 .inner-group .btn-primary{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 5px 25px;
+    letter-spacing: 1px;
+    background: #ff4a00;
+    border: 0px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.group-3 .inner-group .btn-primary:hover, .group-3 .inner-group .btn-primary:focus{
+	color: #ff4a00;
+	background: transparent;
+	border: 1px solid #ff4a00;
+}
+
+
+.group-3 .inner-text{
+	width: 100%;
+	padding: 30px 0px 0px 140px;
+	margin: 20px 0px 0px;
+	text-align: right;
+}
+.group-3 .inner-text p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	padding: 0px 0px 20px 80px;
+}
+
+/*group-3 section end*/
+
+/*about-us section start*/
+.about-us{
+	width: 100%;
+	padding: 60px 0px;
+}
+.about-us .inner-about{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	background: #f6f6f4;
+}
+.about-us .inner-about h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 82px;
+	line-height: 92px;
+	font-weight: 500;
+	color: #000b2c;
+	letter-spacing: 1px;
+	margin: 0px 0px 20px;
+}
+.about-us .inner-about .text-box{
+	width: 100%;
+	padding: 20px;
+}
+.about-us .inner-about .text-box p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #122341;
+}
+
+/*about-us section end*/
+
+/*review section start*/
+.review{
+	width: 100%;
+	padding: 40px 0px;
+}
+.review .sub-title{
+	width: 100%;
+	padding: 0px 0px 20px;
+	text-align: center;
+}
+.review h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 72px;
+	line-height: 82px;
+	font-weight: 500;
+	color: #000b2c;
+	letter-spacing: 1px;
+	margin: 0px 0px 20px;
+}
+.review .bg-color{
+	background: #000b2c;
+}
+.review .img-design{
+	width: 100%;
+	padding: 30px 20px;
+}
+.review .img-design img{
+	width: 100%
+}
+
+.review .text-box{
+	width: 100%;
+	padding: 30px;
+	margin: 80px 0px 0px;
+	text-align: center;
+}
+.review .text-box h3{
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.review .text-box p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+}
+/*open section start*/
+
+.open{
+	width: 100%;
+	padding: 80px 0px;
+}
+.open .title{
+	width: 100%;
+	padding: 0px 0px 30px;
+	text-align: center;
+}
+.open .title h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 72px;
+	line-height: 82px;
+	font-weight: 500;
+	color: #000b2c;
+	letter-spacing: 1px;
+}
+.open .inner-box1{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0px;
+	padding: 20px 0px;
+	background: #233e6a;
+}
+.open .inner-box1 h3{
+	color: #fff;
+	font-weight: 400;
+}
+.open .inner-box2{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0px;
+	margin: 20px 0px;
+	background: #233e6a;
+}
+.open .inner-box2 h3{
+	color: #fff;
+	font-weight: 400;
+}
+/*open section end*/
+
+
+/*branch section start*/
+
+.branch{
+	width: 100%;
+	padding: 80px 0px;
+}
+.branch .title{
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 40px;
+}
+.branch .title h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 72px;
+	line-height: 82px;
+	font-weight: 500;
+	color: #000b2c;
+	letter-spacing: 1px;
+
+}
+
+.branch .inner-branch{
+	width: 100%;
+	background: #233e6a;
+	text-align: center;
+}
+.branch .inner-branch img{
+	width: 100%;
+	height: 100%;
+
+}
+
+.branch .inner-branch .text-box p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+}
+
+ .branch .inner-branch .text-box{
+ 	background: #000b2c;
+	padding: 10px 40px;
+	margin: 20px;
+}
+
+/*branch section end*/
+
+/*footer section start*/
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #122340;
+}
+.footer .inner-footer h4{
+	color: #fff;
+}
+
+.footer ul{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+
+}
+.footer ul li{
+	list-style: none;
+	display: block;	
+}
+.footer ul li a{
+display: block;
+font-size: 16px;
+line-height: 26px;
+color: #fff;
+font-weight: 400;
+margin: 0px 0px 10px 0px;
+text-decoration: none;
+}
+
+.footer .social-icons {
+    width: 100%;
+    padding: 40px 0px 0px;
+    text-align: center;
+}
+
+.footer .social-icons ul{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.footer .social-icons ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+.footer .social-icons ul li a{
+	display: block;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 100%;
+	background: #fff;
+	color: #122340;
+	text-align: center;
+	margin: 0px 10px 0px 0px;
+	transition: 1s;
+}
+
+.footer .social-icons ul li a:hover, .footer .social-icons ul li a:focus{
+	color: #fff;
+	background: transparent;
+}
+
+
+
+/*footer section end*/
